@@ -1,5 +1,5 @@
 import { headingsPlugin, listsPlugin, markdownShortcutPlugin, MDXEditor, quotePlugin } from '@mdxeditor/editor'
-import { useMarkdownEditor } from '@renderer/hooks/useMarkDownEditor'
+import { useMarkdownEditor } from '@renderer/hooks/useMarkdownEditor'
 
 export const MardownEditor = () => {
     const { editorRef, selectedNote, handleAutoSaving, handleBlur } = useMarkdownEditor()
