@@ -22,6 +22,9 @@ HubbleNote is a simple **note-taking app** that uses **Markdown** syntax to form
 
 An Electron application with React and TypeScript
 
+![capture](https://github.com/user-attachments/assets/8988a412-1e16-41c6-a63e-4d4f12887cd3)
+
+
 ## Recommended IDE Setup
 
 - [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
