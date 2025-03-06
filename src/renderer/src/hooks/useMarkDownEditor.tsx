@@ -1,5 +1,5 @@
 import { defaultKeymap } from '@codemirror/commands';
-import { highlightActiveLineGutter, lineNumbers } from '@codemirror/gutter';
+import { highlightActiveLineGutter } from '@codemirror/gutter';
 import { defaultHighlightStyle, HighlightStyle, tags } from '@codemirror/highlight';
 import { history, historyKeymap } from '@codemirror/history';
 import { markdown, markdownLanguage } from "@codemirror/lang-markdown";
@@ -61,7 +61,7 @@ export const useMarkdownEditor = () => {
             extensions: [
                 keymap.of([...defaultKeymap, ...historyKeymap]),
                 history(),
-                lineNumbers(),
+                // lineNumbers(),
                 indentOnInput(),
                 bracketMatching(),
                 highlightActiveLineGutter(),

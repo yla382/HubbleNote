@@ -31,7 +31,7 @@ const App = () => {
           </div>
 
           {/* Scrollable container for MarkdownEditor and MarkdownRenderView */}
-          <div className="flex gap-4 flex-1 overflow-hidden">
+          <div className="flex gap-2 flex-1 overflow-hidden">
             <div className="w-1/2">
               <MarkdownEditor className="w-full h-full overflow-auto"/>
             </div>
