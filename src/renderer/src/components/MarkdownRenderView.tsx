@@ -10,7 +10,7 @@ export const MarkdownRenderView = ({ className, ...props }: ComponentProps<"div"
     if (!selectedNote) return null
 
     return (
-        <div className={twMerge("p-4 prose prose-invert", className)} {...props}>
+        <div className={twMerge("max-w-none p-4 prose prose-invert break-words", className)} {...props}>
             <ReactMarkdown>{selectedNote.content}</ReactMarkdown>
         </div>
     )
