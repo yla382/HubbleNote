@@ -1,6 +1,8 @@
-# Hubblenote
-
 ![icon](https://github.com/user-attachments/assets/65d8bd1a-c674-4848-98bb-032703a3cfbc)<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+## Welcome to HubbleNote 👋🏻
+
+HubbleNote is a simple **note-taking app** that uses **Markdown** syntax to format your notes.
 
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-128 -128 768.00 768.00" xml:space="preserve" width="214px" height="214px" fill="#ffffff" transform="rotate(45)matrix(1, 0, 0, 1, 0, 0)" stroke="#ffffff" stroke-width="0.00512">
