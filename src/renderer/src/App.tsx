@@ -2,12 +2,13 @@ import {
   ActionButtonsRow,
   Content,
   FloatingNoteTitle,
-  MardownEditor,
+  MarkdownEditor,
   NotePreviewList,
   RootLayout,
   Sidebar
 } from "@/components"
 import { useRef } from "react"
+import { MarkdownRenderView } from "./components/MarkdownRenderView"
 
 const App = () => {
   const contentContainerRef = useRef<HTMLDivElement>(null)
@@ -26,8 +27,9 @@ const App = () => {
         </Sidebar>
         <Content ref={contentContainerRef}  className="border-l bg-zinc-900/50 border-l-white/20">
           <FloatingNoteTitle className='pt-2'/>
-          <MardownEditor/>
+          <MarkdownEditor/>
         </Content>
+        <MarkdownRenderView/>
       </RootLayout>
     </>
   )
